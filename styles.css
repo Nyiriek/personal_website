@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif, 'Helvetica';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#111831, #11a1b4, #111831);
+}
+
+.header {
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #111831;
+    color: #11a1b4;
+    padding: 1rem 1.5%;
+    margin-bottom: 0;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky {
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main {
+    padding: 1rem;
+}
+
+#goals, #info {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.goals {
+    margin-top: 30px;
+}
+
+.goals .text {
+    font-size: 25px;
+}
+
+.goals h2  {
+    font-size: 35px;
+    padding-top: 70px;
+    color: #11a1b4;
+}
+
+.goals h3 {
+    font-size: 25px;
+    color: #111831;
+}
+.goals strong {
+    font-size: 20px;
+}
+
+.goals p {
+    font-size: 18px;
+}
+
+.goals ul li {
+    font-size: 18px;
+}
+
+#info {
+    margin-left: 50px;
+}
+
+.info h2 {
+    color: #111831;
+    text-decoration: underline;
+}
+
+#links a {
+    display: block;
+    margin: 0.5rem 0;
+    color: #11a1b4;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 7px;
+}
+
+@media (min-width: 768px) {
+    #goals, #info {
+        display: inline-block;
+        vertical-align: top;
+        width: 48%;
+    }
+}
